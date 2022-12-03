@@ -14,18 +14,18 @@ def main(speed=0, bg_color="grey"):
   
  
     """TODO: define different colors here"""
-    colors = ['blue' "red", "yellow", "green"] 
+    colors = ['blue', "red", "yellow", "green"] 
 
-    for _ in range(10):
+    for i in range(10):
         # define some params
         size = 18
         pos = [np.random.randint(-300, 300), np.random.randint(-300, 300)]
 
         
         """TODO: set snowflake color here (one of the colors defined above)"""
-        i = 0
+        print('## ', colors[i])
         myTurtle.color(colors[i])
-        i= i +1
+        
 
         #branch(size)
         myTurtle.left(45)
